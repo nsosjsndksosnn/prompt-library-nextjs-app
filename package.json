@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "app": "powershell -ExecutionPolicy Bypass -File scripts/start-app.ps1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

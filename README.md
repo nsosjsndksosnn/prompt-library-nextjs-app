@@ -48,6 +48,14 @@ npm run dev
 http://localhost:3000
 ```
 
+也可以一键启动：
+
+```powershell
+npm run app
+```
+
+这个命令会读取 `.env.local`、检查依赖、检查 Oracle schema，然后启动应用。
+
 ## 验证
 
 ```powershell
